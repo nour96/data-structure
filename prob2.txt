@@ -1,0 +1,27 @@
+1:  Dot_product procedure:
+    To calculate the dot product of two vectors,
+    we need to multiply the corresponding elements of the vectors and sum them up:
+
+    we start be declaring our variables:
+    n = v.length() // Assuming both vectors have the same length.
+    ps = 0 // Initialize the dot product variable to zero.
+
+    We loop through the vectors, for i to n-1:
+    ps = ps + v1[i] * v2[i] // Multiply corresponding elements and add to the dot product variable.
+
+
+
+2:  Checking if vectors are orthogonal:
+    To check if two vectors are orthogonal we call the dot_product procedure.
+    We use a nested loop to iterate over pairs of vectors.
+
+    n = vectors.length() // Number of vector pairs.
+
+    for i to n=1:
+    v1 = vectors[i][0] // first vector in the pair
+    v2 = vectors[i][1] // second vector in the pair
+
+    Then we call the dot_product procedure, if ps = 0 --> vectors are orthogonal.
+
+3:  To modify the procedure to be a function instead:
+    we should return the value ps instead of storing it inside a variable.

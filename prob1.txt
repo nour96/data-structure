@@ -1,0 +1,7 @@
+1-  we need to make an object of key-value pair
+2-  the key will represent the element, and the value will represent the number of times this element has been occured.
+3-  we loop throug the first array, add its elements to this object as keys.
+4-  we loop through the second arry, check if its elements already have keys inside the object,
+    if yes we increment the value (count) of that key, else we add it.
+5-  we declare a variable (sum) and we initialize it with value = 0,
+    and we loop through the object key-value pairs, then we sum the keys that have value (count) = 1 (occured only once)
